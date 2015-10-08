@@ -1,0 +1,4 @@
+= Elixir Docker Images
+Alex Arnell <alex.arnell@gmail.com>
+
+Docker Base Image packaging for Elixir
