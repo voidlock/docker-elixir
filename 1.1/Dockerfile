@@ -11,6 +11,6 @@ RUN set -xe \
       && rm elixir.tar.gz \
       && cd /usr/src/elixir \
       && make -j$(nproc) clean install \
-      && rm -rf /usr/src/otp-src
+      && rm -rf /usr/src/elixir
 
 CMD ["mix"]
